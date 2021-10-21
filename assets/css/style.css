@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.required::after{
+    content: "*";
+    color: red;
+}
+
+form{
+    margin: 1%;
+}
+
+.mail{
+    width: 21.5%;
+}
+
+.thema{
+    width: 21.5%;
+}
+
+.textarea{
+    width: 21.5%;
+}
+
+div:last-of-type input{
+    width: 21.5%;
+    margin: 0.5% 0 0 0;
+    padding: 1% 0%;
+}
+
+div:last-of-type input:hover{
+    background-color: blanchedalmond;
+}
+
+label{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
